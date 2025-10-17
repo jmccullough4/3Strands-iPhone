@@ -8,11 +8,22 @@ struct OrderListView: View {
         NavigationStack {
             Group {
                 if orderViewModel.orders.isEmpty {
-                    ContentUnavailableView(
-                        "No orders yet",
-                        systemImage: "bag",
-                        description: Text("Start an order from the events tab to reserve your favorites for pick up or delivery.")
-                    )
+                    VStack(spacing: 16) {
+                        Image(systemName: "bag")
+                            .font(.system(size: 48))
+                            .foregroundStyle(.secondary)
+
+                        Text("No orders yet")
+                            .font(.title3)
+                            .bold()
+
+                        Text("Start an order from the events tab to reserve your favorites for pick up or delivery.")
+                            .multilineTextAlignment(.center)
+                            .foregroundStyle(.secondary)
+                            .padding(.horizontal)
+                    }
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .padding()
                 } else {
                     List {
                         Section("Upcoming") {

@@ -12,6 +12,7 @@ A SwiftUI application that pairs with [3Strands.co](https://3strands.co) to high
 ## Project structure
 
 ```
+ThreeStrandsApp.xcodeproj/
 ThreeStrandsApp/
 ├── Features/
 │   ├── Chat/
@@ -28,17 +29,16 @@ Each feature folder contains SwiftUI views specific to that area of the app. Sha
 
 ## Getting started
 
-1. Open the repository in Xcode 15 or later.
-2. Add the `ThreeStrandsApp` folder to a new SwiftUI iOS project or set it as the project’s main source directory.
-3. Ensure that `SampleEvents.json` is included in the app target so the bundled sample events are available offline and in previews.
-4. Build and run the `ThreeStrandsApp` scheme on iOS 17 or later.
+1. Open `ThreeStrandsApp.xcodeproj` in Xcode 14.3 or later.
+2. Select the **ThreeStrandsApp** scheme and choose an iOS 16 simulator or device.
+3. Build and run.
 
 The app will attempt to fetch live events from the WordPress feed at `https://3strands.co/wp-json/wp/v2/events`. If the feed is unavailable, it falls back to the bundled sample events.
 
 ## Requirements
 
-- Xcode 15+
-- iOS 17+
+- Xcode 14.3+
+- iOS 16.0+
 
 ## Notes
 

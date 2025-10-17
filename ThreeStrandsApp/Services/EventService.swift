@@ -9,7 +9,9 @@ actor EventService {
         self.session = session
         self.decoder = JSONDecoder()
         self.decoder.dateDecodingStrategy = .iso8601
-        self.cacheURL = FileManager.default.temporaryDirectory.appending(path: "events.json")
+        self.cacheURL = FileManager.default
+            .temporaryDirectory
+            .appendingPathComponent("events.json")
     }
 
     func fetchEvents() async throws -> [Event] {
@@ -77,7 +79,7 @@ actor EventService {
     }
 
     private func loadCachedEvents() throws -> [Event]? {
-        guard FileManager.default.fileExists(atPath: cacheURL.path()) else { return nil }
+        guard FileManager.default.fileExists(atPath: cacheURL.path) else { return nil }
         let data = try Data(contentsOf: cacheURL)
         return try decoder.decode([Event].self, from: data)
     }

@@ -40,11 +40,22 @@ struct EventListView: View {
                     .padding()
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                 } else if filteredEvents.isEmpty {
-                    ContentUnavailableView(
-                        "No events",
-                        systemImage: "calendar.badge.exclamationmark",
-                        description: Text("We didn’t find any events that match your search.")
-                    )
+                    VStack(spacing: 16) {
+                        Image(systemName: "calendar.badge.exclamationmark")
+                            .font(.system(size: 48))
+                            .foregroundStyle(.secondary)
+
+                        Text("No events")
+                            .font(.title3)
+                            .bold()
+
+                        Text("We didn’t find any events that match your search.")
+                            .multilineTextAlignment(.center)
+                            .foregroundStyle(.secondary)
+                            .padding(.horizontal)
+                    }
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .padding()
                 } else {
                     List(filteredEvents) { event in
                         NavigationLink(value: event) {
