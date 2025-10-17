@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+archiveVersion = 1;
+classes = {};
+objectVersion = 56;
+objects = {
+
+/* Begin PBXBuildFile section */
+3F2E8C822C9F2E1400A2E54B /* ThreeStrandsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E8C6C2C9F2E1400A2E54B /* ThreeStrandsApp.swift */; };
+3F2E8C832C9F2E1400A2E54B /* ChatSupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E8C6D2C9F2E1400A2E54B /* ChatSupportView.swift */; };
+3F2E8C842C9F2E1400A2E54B /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E8C6E2C9F2E1400A2E54B /* EventDetailView.swift */; };
+3F2E8C852C9F2E1400A2E54B /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E8C6F2C9F2E1400A2E54B /* EventListView.swift */; };
+3F2E8C862C9F2E1400A2E54B /* OrderFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E8C702C9F2E1400A2E54B /* OrderFormView.swift */; };
+3F2E8C872C9F2E1400A2E54B /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E8C712C9F2E1400A2E54B /* OrderListView.swift */; };
+3F2E8C882C9F2E1400A2E54B /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E8C722C9F2E1400A2E54B /* Event.swift */; };
+3F2E8C892C9F2E1400A2E54B /* EventOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E8C732C9F2E1400A2E54B /* EventOrder.swift */; };
+3F2E8C8A2C9F2E1400A2E54B /* EventOrderDraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E8C742C9F2E1400A2E54B /* EventOrderDraft.swift */; };
+3F2E8C8B2C9F2E1400A2E54B /* OrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E8C752C9F2E1400A2E54B /* OrderType.swift */; };
+3F2E8C8C2C9F2E1400A2E54B /* EventService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E8C762C9F2E1400A2E54B /* EventService.swift */; };
+3F2E8C8D2C9F2E1400A2E54B /* OrderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E8C772C9F2E1400A2E54B /* OrderService.swift */; };
+3F2E8C8E2C9F2E1400A2E54B /* EmailComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E8C782C9F2E1400A2E54B /* EmailComposer.swift */; };
+3F2E8C8F2C9F2E1400A2E54B /* Date+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E8C792C9F2E1400A2E54B /* Date+Formatting.swift */; };
+3F2E8C902C9F2E1400A2E54B /* String+HTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E8C7A2C9F2E1400A2E54B /* String+HTML.swift */; };
+3F2E8C912C9F2E1400A2E54B /* EventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E8C7B2C9F2E1400A2E54B /* EventViewModel.swift */; };
+3F2E8C922C9F2E1400A2E54B /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E8C7C2C9F2E1400A2E54B /* OrderViewModel.swift */; };
+3F2E8C932C9F2E1400A2E54B /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E8C7D2C9F2E1400A2E54B /* ChatViewModel.swift */; };
+3F2E8C942C9F2E1400A2E54B /* SampleEvents.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F2E8C7E2C9F2E1400A2E54B /* SampleEvents.json */; };
+3F2E8C952C9F2E1400A2E54B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2E8C7F2C9F2E1400A2E54B /* Assets.xcassets */; };
+3F2E8C962C9F2E1400A2E54B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2E8C812C9F2E1400A2E54B /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+3F2E8C6C2C9F2E1400A2E54B /* ThreeStrandsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeStrandsApp.swift; sourceTree = "<group>"; };
+3F2E8C6D2C9F2E1400A2E54B /* ChatSupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatSupportView.swift; sourceTree = "<group>"; };
+3F2E8C6E2C9F2E1400A2E54B /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
+3F2E8C6F2C9F2E1400A2E54B /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
+3F2E8C702C9F2E1400A2E54B /* OrderFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderFormView.swift; sourceTree = "<group>"; };
+3F2E8C712C9F2E1400A2E54B /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
+3F2E8C722C9F2E1400A2E54B /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+3F2E8C732C9F2E1400A2E54B /* EventOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventOrder.swift; sourceTree = "<group>"; };
+3F2E8C742C9F2E1400A2E54B /* EventOrderDraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventOrderDraft.swift; sourceTree = "<group>"; };
+3F2E8C752C9F2E1400A2E54B /* OrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderType.swift; sourceTree = "<group>"; };
+3F2E8C762C9F2E1400A2E54B /* EventService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventService.swift; sourceTree = "<group>"; };
+3F2E8C772C9F2E1400A2E54B /* OrderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderService.swift; sourceTree = "<group>"; };
+3F2E8C782C9F2E1400A2E54B /* EmailComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailComposer.swift; sourceTree = "<group>"; };
+3F2E8C792C9F2E1400A2E54B /* Date+Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Formatting.swift"; sourceTree = "<group>"; };
+3F2E8C7A2C9F2E1400A2E54B /* String+HTML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+HTML.swift"; sourceTree = "<group>"; };
+3F2E8C7B2C9F2E1400A2E54B /* EventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewModel.swift; sourceTree = "<group>"; };
+3F2E8C7C2C9F2E1400A2E54B /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+3F2E8C7D2C9F2E1400A2E54B /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+3F2E8C7E2C9F2E1400A2E54B /* SampleEvents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SampleEvents.json; sourceTree = "<group>"; };
+3F2E8C7F2C9F2E1400A2E54B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+3F2E8C802C9F2E1400A2E54B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+3F2E8C812C9F2E1400A2E54B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+3F2E8C622C9F2E1400A2E54B /* ThreeStrandsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeStrandsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+3F2E8C5D2C9F2E1400A2E54B /* Frameworks */ = {
+isa = PBXFrameworksBuildPhase;
+buildActionMask = 2147483647;
+files = (
+3F2E8C962C9F2E1400A2E54B /* MessageUI.framework in Frameworks */,
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+3F2E8C5F2C9F2E1400A2E54B = {
+isa = PBXGroup;
+children = (
+3F2E8C602C9F2E1400A2E54B /* ThreeStrandsApp */,
+3F2E8C612C9F2E1400A2E54B /* Products */,
+3F2E8C972C9F2E1400A2E54B /* Frameworks */,
+);
+sourceTree = "<group>";
+};
+3F2E8C602C9F2E1400A2E54B /* ThreeStrandsApp */ = {
+isa = PBXGroup;
+children = (
+3F2E8C6C2C9F2E1400A2E54B /* ThreeStrandsApp.swift */,
+3F2E8C632C9F2E1400A2E54B /* Features */,
+3F2E8C672C9F2E1400A2E54B /* Models */,
+3F2E8C682C9F2E1400A2E54B /* Services */,
+3F2E8C692C9F2E1400A2E54B /* Utilities */,
+3F2E8C6A2C9F2E1400A2E54B /* ViewModels */,
+3F2E8C6B2C9F2E1400A2E54B /* Resources */,
+);
+path = ThreeStrandsApp;
+sourceTree = SOURCE_ROOT;
+};
+3F2E8C612C9F2E1400A2E54B /* Products */ = {
+isa = PBXGroup;
+children = (
+3F2E8C622C9F2E1400A2E54B /* ThreeStrandsApp.app */,
+);
+name = Products;
+sourceTree = "<group>";
+};
+3F2E8C632C9F2E1400A2E54B /* Features */ = {
+isa = PBXGroup;
+children = (
+3F2E8C642C9F2E1400A2E54B /* Chat */,
+3F2E8C652C9F2E1400A2E54B /* Events */,
+3F2E8C662C9F2E1400A2E54B /* Orders */,
+);
+path = Features;
+sourceTree = "<group>";
+};
+3F2E8C642C9F2E1400A2E54B /* Chat */ = {
+isa = PBXGroup;
+children = (
+3F2E8C6D2C9F2E1400A2E54B /* ChatSupportView.swift */,
+);
+path = Chat;
+sourceTree = "<group>";
+};
+3F2E8C652C9F2E1400A2E54B /* Events */ = {
+isa = PBXGroup;
+children = (
+3F2E8C6E2C9F2E1400A2E54B /* EventDetailView.swift */,
+3F2E8C6F2C9F2E1400A2E54B /* EventListView.swift */,
+);
+path = Events;
+sourceTree = "<group>";
+};
+3F2E8C662C9F2E1400A2E54B /* Orders */ = {
+isa = PBXGroup;
+children = (
+3F2E8C702C9F2E1400A2E54B /* OrderFormView.swift */,
+3F2E8C712C9F2E1400A2E54B /* OrderListView.swift */,
+);
+path = Orders;
+sourceTree = "<group>";
+};
+3F2E8C672C9F2E1400A2E54B /* Models */ = {
+isa = PBXGroup;
+children = (
+3F2E8C722C9F2E1400A2E54B /* Event.swift */,
+3F2E8C732C9F2E1400A2E54B /* EventOrder.swift */,
+3F2E8C742C9F2E1400A2E54B /* EventOrderDraft.swift */,
+3F2E8C752C9F2E1400A2E54B /* OrderType.swift */,
+);
+path = Models;
+sourceTree = "<group>";
+};
+3F2E8C682C9F2E1400A2E54B /* Services */ = {
+isa = PBXGroup;
+children = (
+3F2E8C762C9F2E1400A2E54B /* EventService.swift */,
+3F2E8C772C9F2E1400A2E54B /* OrderService.swift */,
+3F2E8C782C9F2E1400A2E54B /* EmailComposer.swift */,
+);
+path = Services;
+sourceTree = "<group>";
+};
+3F2E8C692C9F2E1400A2E54B /* Utilities */ = {
+isa = PBXGroup;
+children = (
+3F2E8C792C9F2E1400A2E54B /* Date+Formatting.swift */,
+3F2E8C7A2C9F2E1400A2E54B /* String+HTML.swift */,
+);
+path = Utilities;
+sourceTree = "<group>";
+};
+3F2E8C6A2C9F2E1400A2E54B /* ViewModels */ = {
+isa = PBXGroup;
+children = (
+3F2E8C7B2C9F2E1400A2E54B /* EventViewModel.swift */,
+3F2E8C7C2C9F2E1400A2E54B /* OrderViewModel.swift */,
+3F2E8C7D2C9F2E1400A2E54B /* ChatViewModel.swift */,
+);
+path = ViewModels;
+sourceTree = "<group>";
+};
+3F2E8C6B2C9F2E1400A2E54B /* Resources */ = {
+isa = PBXGroup;
+children = (
+3F2E8C7F2C9F2E1400A2E54B /* Assets.xcassets */,
+3F2E8C7E2C9F2E1400A2E54B /* SampleEvents.json */,
+3F2E8C802C9F2E1400A2E54B /* Info.plist */,
+);
+path = Resources;
+sourceTree = "<group>";
+};
+3F2E8C972C9F2E1400A2E54B /* Frameworks */ = {
+isa = PBXGroup;
+children = (
+3F2E8C812C9F2E1400A2E54B /* MessageUI.framework */,
+);
+name = Frameworks;
+sourceTree = "<group>";
+};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+3F2E8C5B2C9F2E1400A2E54B /* ThreeStrandsApp */ = {
+isa = PBXNativeTarget;
+buildConfigurationList = 3F2E8C8E2C9F2E1500A2E54B /* Build configuration list for PBXNativeTarget "ThreeStrandsApp" */;
+buildPhases = (
+3F2E8C5C2C9F2E1400A2E54B /* Sources */,
+3F2E8C5D2C9F2E1400A2E54B /* Frameworks */,
+3F2E8C5E2C9F2E1400A2E54B /* Resources */,
+);
+buildRules = (
+);
+dependencies = (
+);
+name = ThreeStrandsApp;
+productName = ThreeStrandsApp;
+productReference = 3F2E8C622C9F2E1400A2E54B /* ThreeStrandsApp.app */;
+productType = "com.apple.product-type.application";
+};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+3F2E8C5A2C9F2E1400A2E54B /* Project object */ = {
+isa = PBXProject;
+attributes = {
+BuildIndependentTargetsInParallel = YES;
+LastUpgradeCheck = 1500;
+ORGANIZATIONNAME = "3 Strands";
+TargetAttributes = {
+3F2E8C5B2C9F2E1400A2E54B = {
+CreatedOnToolsVersion = 15.0;
+};
+};
+};
+buildConfigurationList = 3F2E8C8B2C9F2E1500A2E54B /* Build configuration list for PBXProject "ThreeStrandsApp" */;
+compatibilityVersion = "Xcode 14.0";
+developmentRegion = en;
+hasScannedForEncodings = 0;
+knownRegions = (
+en,
+Base,
+);
+mainGroup = 3F2E8C5F2C9F2E1400A2E54B;
+productRefGroup = 3F2E8C612C9F2E1400A2E54B /* Products */;
+projectDirPath = "";
+projectRoot = "";
+targets = (
+3F2E8C5B2C9F2E1400A2E54B /* ThreeStrandsApp */,
+);
+};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+3F2E8C5E2C9F2E1400A2E54B /* Resources */ = {
+isa = PBXResourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+3F2E8C952C9F2E1400A2E54B /* Assets.xcassets in Resources */,
+3F2E8C942C9F2E1400A2E54B /* SampleEvents.json in Resources */,
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+3F2E8C5C2C9F2E1400A2E54B /* Sources */ = {
+isa = PBXSourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+3F2E8C822C9F2E1400A2E54B /* ThreeStrandsApp.swift in Sources */,
+3F2E8C832C9F2E1400A2E54B /* ChatSupportView.swift in Sources */,
+3F2E8C842C9F2E1400A2E54B /* EventDetailView.swift in Sources */,
+3F2E8C852C9F2E1400A2E54B /* EventListView.swift in Sources */,
+3F2E8C862C9F2E1400A2E54B /* OrderFormView.swift in Sources */,
+3F2E8C872C9F2E1400A2E54B /* OrderListView.swift in Sources */,
+3F2E8C882C9F2E1400A2E54B /* Event.swift in Sources */,
+3F2E8C892C9F2E1400A2E54B /* EventOrder.swift in Sources */,
+3F2E8C8A2C9F2E1400A2E54B /* EventOrderDraft.swift in Sources */,
+3F2E8C8B2C9F2E1400A2E54B /* OrderType.swift in Sources */,
+3F2E8C8C2C9F2E1400A2E54B /* EventService.swift in Sources */,
+3F2E8C8D2C9F2E1400A2E54B /* OrderService.swift in Sources */,
+3F2E8C8E2C9F2E1400A2E54B /* EmailComposer.swift in Sources */,
+3F2E8C8F2C9F2E1400A2E54B /* Date+Formatting.swift in Sources */,
+3F2E8C902C9F2E1400A2E54B /* String+HTML.swift in Sources */,
+3F2E8C912C9F2E1400A2E54B /* EventViewModel.swift in Sources */,
+3F2E8C922C9F2E1400A2E54B /* OrderViewModel.swift in Sources */,
+3F2E8C932C9F2E1400A2E54B /* ChatViewModel.swift in Sources */,
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+3F2E8C8C2C9F2E1500A2E54B /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ALWAYS_SEARCH_USER_PATHS = NO;
+ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+CLANG_ANALYZER_NONNULL = YES;
+CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+CLANG_ENABLE_MODULES = YES;
+CLANG_ENABLE_OBJC_ARC = YES;
+CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+CLANG_WARN_BOOL_CONVERSION = YES;
+CLANG_WARN_COMMA = YES;
+CLANG_WARN_CONSTANT_CONVERSION = YES;
+CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+CLANG_WARN_EMPTY_BODY = YES;
+CLANG_WARN_ENUM_CONVERSION = YES;
+CLANG_WARN_INFINITE_RECURSION = YES;
+CLANG_WARN_INT_CONVERSION = YES;
+CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+CLANG_WARN_STRICT_PROTOTYPES = YES;
+CLANG_WARN_SUSPICIOUS_MOVE = YES;
+CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+CLANG_WARN_UNREACHABLE_CODE = YES;
+CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+COPY_PHASE_STRIP = NO;
+DEBUG_INFORMATION_FORMAT = dwarf;
+ENABLE_STRICT_OBJC_MSGSEND = YES;
+ENABLE_TESTABILITY = YES;
+GCC_C_LANGUAGE_STANDARD = gnu11;
+GCC_DYNAMIC_NO_PIC = NO;
+GCC_NO_COMMON_BLOCKS = YES;
+GCC_OPTIMIZATION_LEVEL = 0;
+GCC_PREPROCESSOR_DEFINITIONS = (
+"DEBUG=1",
+"$(inherited)",
+);
+GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+GCC_WARN_UNDECLARED_SELECTOR = YES;
+GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+GCC_WARN_UNUSED_FUNCTION = YES;
+GCC_WARN_UNUSED_VARIABLE = YES;
+IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+MTL_FAST_MATH = YES;
+ONLY_ACTIVE_ARCH = YES;
+SDKROOT = iphoneos;
+};
+name = Debug;
+};
+3F2E8C8D2C9F2E1500A2E54B /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ALWAYS_SEARCH_USER_PATHS = NO;
+ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+CLANG_ANALYZER_NONNULL = YES;
+CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+CLANG_ENABLE_MODULES = YES;
+CLANG_ENABLE_OBJC_ARC = YES;
+CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+CLANG_WARN_BOOL_CONVERSION = YES;
+CLANG_WARN_COMMA = YES;
+CLANG_WARN_CONSTANT_CONVERSION = YES;
+CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+CLANG_WARN_EMPTY_BODY = YES;
+CLANG_WARN_ENUM_CONVERSION = YES;
+CLANG_WARN_INFINITE_RECURSION = YES;
+CLANG_WARN_INT_CONVERSION = YES;
+CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+CLANG_WARN_STRICT_PROTOTYPES = YES;
+CLANG_WARN_SUSPICIOUS_MOVE = YES;
+CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+CLANG_WARN_UNREACHABLE_CODE = YES;
+CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+COPY_PHASE_STRIP = NO;
+DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+ENABLE_NS_ASSERTIONS = NO;
+ENABLE_STRICT_OBJC_MSGSEND = YES;
+GCC_C_LANGUAGE_STANDARD = gnu11;
+GCC_NO_COMMON_BLOCKS = YES;
+GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+GCC_WARN_UNDECLARED_SELECTOR = YES;
+GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+GCC_WARN_UNUSED_FUNCTION = YES;
+GCC_WARN_UNUSED_VARIABLE = YES;
+IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+MTL_ENABLE_DEBUG_INFO = NO;
+MTL_FAST_MATH = YES;
+SDKROOT = iphoneos;
+VALIDATE_PRODUCT = YES;
+};
+name = Release;
+};
+3F2E8C8F2C9F2E1500A2E54B /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+CODE_SIGN_STYLE = Automatic;
+CURRENT_PROJECT_VERSION = 1;
+DEVELOPMENT_ASSET_PATHS = "";
+DEVELOPMENT_TEAM = "";
+ENABLE_PREVIEWS = YES;
+GENERATE_INFOPLIST_FILE = NO;
+INFOPLIST_FILE = ThreeStrandsApp/Resources/Info.plist;
+IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+LD_RUNPATH_SEARCH_PATHS = (
+"$(inherited)",
+"@executable_path/Frameworks",
+);
+MARKETING_VERSION = 1.0;
+PRODUCT_BUNDLE_IDENTIFIER = co.threestrands.app;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SDKROOT = iphoneos;
+SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+SWIFT_EMIT_LOC_STRINGS = YES;
+SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+};
+name = Debug;
+};
+3F2E8C902C9F2E1500A2E54B /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+CODE_SIGN_STYLE = Automatic;
+CURRENT_PROJECT_VERSION = 1;
+DEVELOPMENT_ASSET_PATHS = "";
+DEVELOPMENT_TEAM = "";
+ENABLE_PREVIEWS = YES;
+GENERATE_INFOPLIST_FILE = NO;
+INFOPLIST_FILE = ThreeStrandsApp/Resources/Info.plist;
+IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+LD_RUNPATH_SEARCH_PATHS = (
+"$(inherited)",
+"@executable_path/Frameworks",
+);
+MARKETING_VERSION = 1.0;
+PRODUCT_BUNDLE_IDENTIFIER = co.threestrands.app;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SDKROOT = iphoneos;
+SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+SWIFT_EMIT_LOC_STRINGS = YES;
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+};
+name = Release;
+};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+3F2E8C8B2C9F2E1500A2E54B /* Build configuration list for PBXProject "ThreeStrandsApp" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+3F2E8C8C2C9F2E1500A2E54B /* Debug */,
+3F2E8C8D2C9F2E1500A2E54B /* Release */,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+3F2E8C8E2C9F2E1500A2E54B /* Build configuration list for PBXNativeTarget "ThreeStrandsApp" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+3F2E8C8F2C9F2E1500A2E54B /* Debug */,
+3F2E8C902C9F2E1500A2E54B /* Release */,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+/* End XCConfigurationList section */
+
+};
+rootObject = 3F2E8C5A2C9F2E1400A2E54B /* Project object */;
+}
