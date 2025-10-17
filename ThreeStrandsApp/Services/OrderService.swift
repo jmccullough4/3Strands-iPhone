@@ -3,7 +3,7 @@ import Foundation
 actor OrderService {
     private var submittedOrders: [EventOrder] = []
 
-    func validate(draft: EventOrderDraft) -> Bool {
+    nonisolated func validate(draft: EventOrderDraft) -> Bool {
         !draft.itemsDescription.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty &&
         !draft.contactPhone.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty &&
         (draft.orderType == .pickup || !draft.deliveryAddress.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
