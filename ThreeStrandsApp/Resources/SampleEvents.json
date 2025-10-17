@@ -1,0 +1,29 @@
+[
+  {
+    "id": "11111111-2222-3333-4444-555555555555",
+    "title": "Community Cold Brew Bar",
+    "description": "Join us at the Midtown block party for handcrafted cold brew, espresso drinks, and pastries.",
+    "location": "Midtown Sacramento",
+    "start_date": "2024-07-12T17:00:00Z",
+    "end_date": "2024-07-12T21:00:00Z",
+    "website_url": "https://3strands.co/events/community-cold-brew"
+  },
+  {
+    "id": "66666666-7777-8888-9999-000000000000",
+    "title": "Farmer's Market Pop-Up",
+    "description": "Reserve beans and grab-and-go lattes for pick up at the Sunday market.",
+    "location": "Fremont Park Farmers Market",
+    "start_date": "2024-07-14T15:00:00Z",
+    "end_date": "2024-07-14T20:00:00Z",
+    "website_url": "https://3strands.co/events/farmers-market"
+  },
+  {
+    "id": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+    "title": "Downtown Delivery Day",
+    "description": "Schedule a delivery drop from the 3 Strands team throughout downtown Sacramento.",
+    "location": "Downtown Sacramento",
+    "start_date": "2024-07-16T16:00:00Z",
+    "end_date": "2024-07-16T23:00:00Z",
+    "website_url": "https://3strands.co/events/downtown-delivery"
+  }
+]
