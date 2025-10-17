@@ -29,7 +29,7 @@ Each feature folder contains SwiftUI views specific to that area of the app. Sha
 
 ## Getting started
 
-1. Open `ThreeStrandsApp.xcodeproj` in Xcode 14.3 or later.
+1. Open `ThreeStrandsApp.xcodeproj` (or the companion `ThreeStrandsApp.xcworkspace`) in Xcode 14.3 or later.
 2. Select the **ThreeStrandsApp** scheme and choose an iOS 16 simulator or device.
 3. Build and run.
 
